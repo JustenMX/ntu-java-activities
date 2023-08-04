@@ -54,4 +54,4 @@ This project is licensed under the MIT License. See the [LICENSE](/LICENSE) file
 
 ## Credits
 
-<img src="https://www.ntu.edu.sg/images/default-source/corporate/ntu_logo.png?sfvrsn=b5dd1d82_5" alt="NTU Logo" width="120">
+[<img src="https://www.ntu.edu.sg/images/default-source/corporate/ntu_logo.png?sfvrsn=b5dd1d82_5" alt="NTU Logo" width="120">](https://www.ntu.edu.sg)
