@@ -35,7 +35,8 @@ Here is a list of activities included in this repository:
 2. [Activity 2: Control Statements](/activity2)
 3. [Activity 3: Arrays, ArrayList and Loops](/activity3)
 4. [Activity 4: Java Methods](/activity4)
-<!-- 4. [Activity 4: Object-Oriented Programming](/activity4)
+   > Work in Progress!
+   <!-- 4. [Activity 4: Object-Oriented Programming](/activity4)
 5. [Activity 5: File Handling](/activity5)
 6. [Activity 6: Inheritance and Polymorphism](/activity6)
 7. [Activity 7: Exception Handling](/activity7)
