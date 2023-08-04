@@ -53,6 +53,10 @@ public class CalculateBonus {
     // Activity 2
 
     public static double bonusCalc(double[] arr) {
+        // Guard clause
+        if (arr.length < 6) {
+            return 0;
+        }
         double avg = 0;
         double totalSum = 0;
         for (double salary : arr) {
