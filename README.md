@@ -1,4 +1,4 @@
-# Nanyang Technological University Software Engineering Java Activities
+# NTU Software Engineering Java Activities
 
 ![NTU Logo](https://www.ntu.edu.sg/CorporatePortal/ContentAdmin/image/NTU%20logo.gif)
 
