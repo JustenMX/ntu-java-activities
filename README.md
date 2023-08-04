@@ -1,7 +1,5 @@
 # NTU Software Engineering Java Activities
 
-![NTU Logo](https://www.ntu.edu.sg/CorporatePortal/ContentAdmin/image/NTU%20logo.gif)
-
 This repository contains a collection of Java programming exercises and activities completed as part of the Software Engineering course at Nanyang Technological University (NTU). Each folder in this repository represents a different activity or exercise.
 
 ## Table of Contents
@@ -53,3 +51,7 @@ If you would like to contribute to this repository by adding your own solutions 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](/LICENSE) file for more details.
+
+## Credits
+
+<img src="https://www.ntu.edu.sg/images/default-source/corporate/ntu_logo.png?sfvrsn=b5dd1d82_5" alt="NTU Logo" width="120">
