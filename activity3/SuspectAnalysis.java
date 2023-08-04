@@ -1,3 +1,5 @@
+package activity3;
+
 /* 
 Write a program to do the following:
 - Allow a user to enter a list of suspect names
