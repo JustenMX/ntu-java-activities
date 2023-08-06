@@ -45,7 +45,7 @@ Please click on the links to navigate to each activity's folder and explore the 
 
 ## Contributing
 
-If you would like to contribute to this repository by adding your own solutions to the activities or improving existing ones, feel free to submit a pull request. Contributions are welcome and appreciated!
+If you would like to contribute to this repository by adding your own solutions to the activities or improving existing ones, feel free to submit a pull request. Contributions are welcome and appreciated! See the [CODE OF CONDUCT](/CODE_OF_CONDUCT.MD) for more details.
 
 ## License
 
