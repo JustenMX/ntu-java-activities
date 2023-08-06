@@ -35,13 +35,11 @@ Here is a list of activities included in this repository:
 2. [Activity 2: Control Statements](/activity2)
 3. [Activity 3: Arrays, ArrayList and Loops](/activity3)
 4. [Activity 4: Java Methods](/activity4)
-   > Work in Progress!
-   <!-- 4. [Activity 4: Object-Oriented Programming](/activity4)
-5. [Activity 5: File Handling](/activity5)
-6. [Activity 6: Inheritance and Polymorphism](/activity6)
-7. [Activity 7: Exception Handling](/activity7)
-8. [Activity 8: GUI Applications](/activity8)
-9. [Activity 9: Multi-Threading](/activity9) -->
+<!-- 5. [Activity 5: File Handling](/activity5)
+5. [Activity 6: Inheritance and Polymorphism](/activity6)
+6. [Activity 7: Exception Handling](/activity7)
+7. [Activity 8: GUI Applications](/activity8)
+8. [Activity 9: Multi-Threading](/activity9) -->
 
 Please click on the links to navigate to each activity's folder and explore the related materials.
 
