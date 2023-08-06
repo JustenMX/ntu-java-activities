@@ -25,5 +25,15 @@ myVendingMachine.makePayment(EPayment.PAYNOW);
  */
 
 public class VendingMachine {
+  public static void main(String[] args) {
+    // /VendingMachine myVendingMachine = new VendingMachine();
+    // myVendingMachine.makePayment(10.0); // cash
+    // myVendingMachine.makePayment(EPayment.GRABPAY); // cashless, no amount needed
+    // myVendingMachine.makePayment(EPayment.FAVEPAY);
+    // myVendingMachine.makePayment(EPayment.PAYNOW);
+  }
+
+  public static makePayment(double amount) {
     //
+  }
 }
