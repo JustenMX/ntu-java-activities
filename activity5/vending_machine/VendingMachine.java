@@ -1,18 +1,26 @@
 package activity5.vending_machine;
 
+import java.util.ArrayList;
+
 enum Drink {
     COKE, PEPSI, WATER
+}
+
+record VendingTransaction(Drink drink, double amount) {
+    //
 }
 
 public class VendingMachine {
     private String location;
     private double earnings;
     private double balance;
+    private ArrayList<VendingTransaction> transactions;
 
     public VendingMachine(String location) {
         this.location = location;
-        // this.earnings = earnings;
-        // this.balance = balance;
+        this.earnings = 0;
+        this.balance = 0;
+        this.transactions = new ArrayList<>();
     }
 
     public VendingMachine(VendingMachine source) {
@@ -49,9 +57,9 @@ public class VendingMachine {
 
     // Methods
 
-    public void insertCoin(double amt) {
-        this.balance += amt;
-        System.out.println("💵 Inserted $" + amt);
+    public void insertCoin(double amount) {
+        this.balance += amount;
+        System.out.println("💵 Inserted $" + amount);
         System.out.println("💵 Current Balance $" + this.balance);
     }
 
@@ -60,19 +68,30 @@ public class VendingMachine {
         double drinkPrice = getPrice(drink);
 
         if (currentBalance < drinkPrice) {
+            double moreBal = drinkPrice - currentBalance;
             System.out.println("🥤 Selected Beverage: " + drink);
-            System.out.println("🚫 Insufficient Payment, Insert more Coins");
+            System.out.println("🚫 Insufficient Payment, Insert $" + moreBal + " more.");
             System.out.println(".");
             System.out.println(".");
             System.out.println(".");
-        } else {
+        } else if (currentBalance > drinkPrice) {
             this.earnings += drinkPrice;
+            this.transactions.add(new VendingTransaction(drink, drinkPrice));
+            double returnBal = currentBalance - drinkPrice;
+            System.out.println("❗️ Balance amount $ " + returnBal + " returned.");
             this.balance = 0;
             dispenseDrink(drink);
             System.out.println(".");
             System.out.println(".");
             System.out.println(".");
-
+        } else {
+            this.earnings += drinkPrice;
+            this.transactions.add(new VendingTransaction(drink, drinkPrice));
+            this.balance = 0;
+            dispenseDrink(drink);
+            System.out.println(".");
+            System.out.println(".");
+            System.out.println(".");
         }
 
     }
@@ -82,7 +101,7 @@ public class VendingMachine {
         return switch (drink) {
             case COKE -> 1.50;
             case PEPSI -> 1.50;
-            case WATER -> 1.50;
+            case WATER -> 1.00;
             default -> 0.0;
         };
     }
@@ -92,7 +111,17 @@ public class VendingMachine {
     }
 
     public void printEarnings() {
-        System.out.println("Vending Machine Total Earnings: $" + getEarnings());
+        System.out.println("🤖 Vending Machine Total Earnings: $" + getEarnings());
+        System.out.println(".");
+        System.out.println(".");
+        System.out.println(".");
+    }
+
+    public void printTransactions() {
+        System.out.println("🧾 Transactions:");
+        for (VendingTransaction transaction : this.transactions) {
+            System.out.println(transaction.drink() + " - $" + transaction.amount());
+        }
     }
 
 }

@@ -16,5 +16,6 @@ public class Main {
         ntuVendingMachine.selectDrink(Drink.WATER);
 
         ntuVendingMachine.printEarnings();
+        ntuVendingMachine.printTransactions();
     }
 }
