@@ -1,0 +1,10 @@
+Aug 14, 2023 9:30:48 PM activity7.logger.LoggerDemo main
+SEVERE: 🔴 This is a severe message.
+Aug 14, 2023 9:30:48 PM activity7.logger.LoggerDemo main
+WARNING: 🟠 This is a warning message.
+Aug 14, 2023 9:30:48 PM activity7.logger.LoggerDemo main
+INFO: 🟢 This is an info message.
+Aug 14, 2023 9:30:48 PM activity7.logger.LoggerDemo main
+SEVERE: 🔴 Index 4 out of bounds for length 4
+Aug 14, 2023 9:30:48 PM activity7.logger.LoggerDemo main
+WARNING: 🟠 Be careful!

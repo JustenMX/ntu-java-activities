@@ -37,10 +37,8 @@ Here is a list of activities included in this repository:
 4. [Activity 4: Java Methods](/activity4)
 5. [Activity 5: Java Classes & Attributes](/activity5)
 6. [Activity 6: Inheritance and Polymorphism](/activity6)
-<!-- 5. [Activity 5: File Handling](/activity5)
 7. [Activity 7: Exception Handling](/activity7)
-8. [Activity 8: GUI Applications](/activity8)
-9. [Activity 9: Multi-Threading](/activity9) -->
+<!-- 8. [Activity 8: Multi-Threading](/activity8) -->
 
 Please click on the links to navigate to each activity's folder and explore the related materials.
 
