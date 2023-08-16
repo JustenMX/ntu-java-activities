@@ -1,5 +1,3 @@
-19:32:57.133 [main] INFO  com.ntu.App - Application started
-19:32:57.134 [main] INFO  com.ntu.App - This is an informational message.
-19:32:57.134 [main] ERROR com.ntu.App - This is an error message.
-19:32:57.134 [main] WARN  com.ntu.App - This is a warning message.
-19:32:57.134 [main] INFO  com.ntu.App - Application ended
+14:52:53.891 [main] INFO  com.ntu.App - Application started
+14:52:53.894 [main] INFO  com.ntu.App - 🟢 File Read
+14:52:53.894 [main] INFO  com.ntu.App - 🟢 Process Complete
