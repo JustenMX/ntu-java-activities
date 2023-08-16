@@ -1,0 +1,10 @@
+Aug 16, 2023 1:17:25 PM activity7.checked.Greetings readFile
+INFO: 🟢 File Read
+Aug 16, 2023 2:16:51 PM activity7.checked.Greetings readFile
+INFO: 🟢 File Read
+Aug 16, 2023 2:16:51 PM activity7.checked.Greetings main
+INFO: 🟢 Process Complete
+Aug 16, 2023 2:17:57 PM activity7.checked.Greetings main
+SEVERE:  🔴 An error occurred
+Aug 16, 2023 2:17:57 PM activity7.checked.Greetings main
+INFO: 🟢 Process Complete
