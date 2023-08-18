@@ -21,7 +21,7 @@ To run the Java programs, you will need to have Java Development Kit (JDK) insta
 Once you have JDK installed, you can clone this repository using the following command:
 
 ```bash
-git clone https://github.com/your-username/ntu-se-java-activities.git
+git clone https://github.com/your-username/ntu-java-activities.git
 
 ```
 
@@ -38,6 +38,11 @@ Here is a list of activities included in this repository:
 5. [Activity 5: Java Classes & Attributes](/activity5)
 6. [Activity 6: Inheritance and Polymorphism](/activity6)
 7. [Activity 7: Exception Handling](/activity7)
+
+Here is a list of java projects that I have worked on myself:
+
+8. [Project 1: Pokerito](/pokerito)
+
 <!-- 8. [Activity 8: Multi-Threading](/activity8) -->
 
 Please click on the links to navigate to each activity's folder and explore the related materials.
