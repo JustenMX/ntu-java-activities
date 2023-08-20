@@ -26,11 +26,11 @@ public class VendingMachine {
     }
 
     // Copy Constructor
-    public VendingMachine(VendingMachine source) {
-        this.location = source.location;
-        this.earnings = source.earnings;
-        this.balance = source.balance;
-    }
+    // public VendingMachine(VendingMachine source) {
+    // this.location = source.location;
+    // this.earnings = source.earnings;
+    // this.balance = source.balance;
+    // }
 
     // Getters
     public String getLocation() {
@@ -66,17 +66,14 @@ public class VendingMachine {
         System.out.println("💵 Current Balance $" + this.balance);
     }
 
-    public void selectDrink(Drink drink) {
+    public void selectDrink(Drink drink) throws InsufficientPaymentException {
         double currentBalance = this.balance;
         double drinkPrice = getPrice(drink);
 
         if (currentBalance < drinkPrice) {
             double moreBal = drinkPrice - currentBalance;
             System.out.println("🥤 Selected Beverage: " + drink);
-            System.out.println("🚫 Insufficient Payment, Insert $" + moreBal + " more.");
-            System.out.println(".");
-            System.out.println(".");
-            System.out.println(".");
+            throw new InsufficientPaymentException("🚫 Insufficient Payment, Insert $" + moreBal + " more.");
         } else if (currentBalance > drinkPrice) {
             this.earnings += drinkPrice;
             this.transactions.add(new VendingTransaction(drink, drinkPrice));
