@@ -32,7 +32,7 @@ public class App {
             logger.info("🧃 User selects drink");
         } catch (InsufficientPaymentException exception) {
             System.out.println(exception.getMessage());
-            logger.error("🔴 An error occurred", exception.getMessage());
+            logger.error("🔴 An error occurred", exception);
             System.out.println(".");
             System.out.println(".");
             System.out.println(".");
@@ -45,7 +45,7 @@ public class App {
             logger.info("🧃 User selects drink");
         } catch (InsufficientPaymentException exception) {
             System.out.println(exception.getMessage());
-            logger.error("🔴 An error occurred", exception.getMessage());
+            logger.error("🔴 An error occurred", exception);
             System.out.println(".");
             System.out.println(".");
             System.out.println(".");
@@ -58,7 +58,7 @@ public class App {
             logger.info("🧃 User selects drink");
         } catch (InsufficientPaymentException exception) {
             System.out.println(exception.getMessage());
-            logger.error("🔴 An error occurred", exception.getMessage());
+            logger.error("🔴 An error occurred", exception);
             System.out.println(".");
             System.out.println(".");
             System.out.println(".");
