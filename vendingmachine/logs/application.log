@@ -1,0 +1,15 @@
+20:05:23.668 [main] INFO  vendingmachine.App - 🟢 Application started
+20:05:23.671 [main] INFO  vendingmachine.App - 💵 User inserts payment
+20:05:23.673 [main] ERROR vendingmachine.App - 🔴 An error occurred
+vendingmachine.InsufficientPaymentException: 🚫 Insufficient Payment, Insert $0.5 more.
+	at vendingmachine.VendingMachine.selectDrink(VendingMachine.java:76)
+	at vendingmachine.App.main(App.java:17)
+20:05:23.673 [main] INFO  vendingmachine.App - 💵 User inserts payment
+20:05:23.674 [main] INFO  vendingmachine.App - 🧃 User selects drink
+20:05:23.674 [main] INFO  vendingmachine.App - 💵 User inserts payment
+20:05:23.674 [main] ERROR vendingmachine.App - 🔴 An error occurred
+vendingmachine.InsufficientPaymentException: 🚫 Insufficient Payment, Insert $0.5 more.
+	at vendingmachine.VendingMachine.selectDrink(VendingMachine.java:76)
+	at vendingmachine.App.main(App.java:44)
+20:05:23.674 [main] INFO  vendingmachine.App - 💵 User inserts payment
+20:05:23.674 [main] INFO  vendingmachine.App - 🧃 User selects drink

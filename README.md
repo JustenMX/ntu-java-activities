@@ -42,7 +42,7 @@ Here is a list of activities included in this repository:
 Here is a list of java projects that I have worked on myself:
 
 8. [Project 1: Pokerito](/pokerito)
-9. [Project 2: Vending Machine](/vending_machine)
+9. [Project 2: Vending Machine](/vendingmachine)
 
 <!-- 8. [Activity 8: Multi-Threading](/activity8) -->
 
