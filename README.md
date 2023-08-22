@@ -39,7 +39,7 @@ Here is a list of activities included in this repository:
 6. [Activity 6: Inheritance and Polymorphism](/activity6)
 7. [Activity 7: Exception Handling](/activity7)
 
-Here is a list of java projects that I have worked on myself:
+In addition to the course exercises, I've also included some of the projects I've independently developed.
 
 8. [Project 1: Pokerito](/pokerito)
 9. [Project 2: Vending Machine](/vendingmachine)
