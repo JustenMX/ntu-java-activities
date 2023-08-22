@@ -12,7 +12,7 @@ This repository contains a collection of Java programming exercises and activiti
 
 ## Introduction
 
-This repository serves as a showcase of my journey through the Java programming exercises and activities in the NTU Software Engineering course. It includes solutions to various programming challenges and concepts taught during the course.
+This repository serves as a showcase of my journey through the Java programming exercises and activities in the NTU Software Engineering course. It includes solutions to various programming challenges and concepts taught during the course. In addition to the course exercises, I've also included some of the projects I've independently developed.
 
 ## Getting Started
 
